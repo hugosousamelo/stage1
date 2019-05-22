@@ -1,0 +1,303 @@
+body {
+	font-family: "Calibri", sans-serif;
+	font-weight: lighter;
+}
+
+article.entete {
+	color : white;
+	background-color : #9b958d	;
+	text-align: center;
+	height : 100px;
+	width : 40%;
+	display : inline-block;
+	float : left;
+}
+
+article.entete2 {
+	color : white;
+	background-color : #9b958d;
+	text-align: center;
+	height :  100px;
+	width : 59%;
+	display : inline-block;
+	margin-left : 1%;
+	float : right;
+	
+}
+
+article.graph {
+	margin-top : 1%;
+	float : left;
+	background-color : #bab3ab;
+	width : 40%;
+	height : 452px;
+}
+
+h4.presentation {
+	margin-left : 2%;
+	margin-right : 2%;
+	margin-bottom : 2%;
+	text-align: center;
+}
+
+img.graph {
+	width : 60%;
+	height : 60%;
+}
+
+.rouge {
+	color : red;
+	
+}
+
+.jaune {
+	color : orange;
+	
+}
+
+.vert {
+	color : green;
+}
+
+p.legende {
+	text-align : center;
+}
+
+article.nps {
+	margin-top : 1%;
+	float : right;
+	width : 59%;
+	height : 200px;
+}
+
+article.score {
+	background-color : #bab3ab;
+	width : 68%;
+	display:inline-block;
+	float : left;
+	height : 200px;
+	text-align : center;
+}
+
+article.image {
+	background-color : #bab3ab;
+	width : 30%;
+	display:inline-block;
+	float : right;
+	height : 200px;
+	
+}	
+
+img.nps {
+	float : right;
+	margin-right : 15%;
+	margin-top : 2%;
+	width : 70%;
+	height : 90%;
+	background-color : white;
+}
+
+a.nps {
+	margin-left : 12%;
+	width : 50%
+}
+
+article.ids {
+	margin-top:1%;
+	float : right;
+	width : 59%;
+	height : 240px;
+	background-color : #bab3ab;
+}
+
+img.ids {
+	width : 250px;
+	height : 110px;
+}
+
+h4.ids {
+	margin-left : 20%;
+	margin-right : 20%;
+	
+}
+
+img.logoClient {
+	width : 6%;
+	height : 6%;
+	display : inline-block;
+	margin-left : 5%;
+	margin-top : 1%;
+	float : left;
+	margin-bottom : 1%;
+}
+
+div.zoneClient {
+	display : inline-block;
+	width : 41%;
+	margin-left : 6%;
+	background-color :#bab3ab ;
+	text-align : center;
+	margin-top:1%;
+	
+}
+
+div.zoneClient2 {
+	display : inline-block;
+	width : 41%;
+	background-color :  #bab3ab ;
+	float : right;
+	text-align : center;
+	margin-top:1%;
+}
+
+img.logoCC {
+	display : inline-block;
+	width : 6%;
+	height : 6%;
+	margin-left:5%;
+
+}
+
+div.zoneCC {
+	display : inline-block;
+	width : 83%;
+	background-color :  #bab3ab ;
+	margin-bottom :4%;
+	float : right;
+	text-align : center;
+	margin-top : 1%;
+}
+
+div.txt {
+	text-align : center;
+	color:white;
+}
+
+
+article.commentaire {
+	background-color : #bab3ab;
+	width : 68%;
+	display:inline-block;
+	float : left;
+	height : 240px;
+	text-align : center;
+}
+
+article.txt {
+	background-color : #bab3ab;
+	width : 30%;
+	display:inline-block;
+	margin-left : 2%;
+	height : 240px;
+}
+
+p.fondR {
+	text-align : center;
+	background-color : white;
+	margin-left : 6%;
+	margin-right : 6%;
+	height : 86%;
+}
+
+p.fondMid {
+	text-align : center;
+	background-color : white;
+	margin-left : 4%;
+	margin-right : 4%;
+	height : 80%;
+}
+
+p.fondC {
+	background-color : white;
+	margin-left : 4%;
+	margin-right : 4%;
+}
+
+p.fondCC {
+	background-color : white;
+	margin-left : 3%;
+	margin-right : 3%;
+}
+
+font.deca {
+	margin-left : 2%;
+	margin-right : 2%;
+}
+
+p.fondR2 {
+	text-align : center;
+	background-color : white;
+	margin-left : 6%;
+	margin-right : 6%;
+	height : 84%;
+}
+
+p.fondL {
+	text-align : center;
+	background-color : white;
+	margin-left : 4%;
+	margin-right : 4%;
+	height : 92%;
+}
+
+table.fondTab {
+	text-align : center;
+	background-color : white;
+	margin-left : 1%;
+	margin-right : 1%;
+	margin-top : 1%;
+	height : 85%;
+	width : 98%;
+}
+
+td.idsV {
+	background-color : #2AD000;
+	color : white;
+}
+
+td.idsJ {
+	background-color : orange;
+	color : white;
+}
+
+td.idsR {
+	background-color : red;
+	color : white;
+}
+
+td.tabnps {
+	width : 6%;
+}
+
+article.tableau {
+	background-color : #bab3ab;
+	text-align: center;
+	height : 200px;
+	width : 100%;
+	display : inline-block;
+	float : left;
+	margin-top:1%;
+	
+}
+	
+p.fondCom {
+	background-color : white;
+	text-align: left;
+	margin-left : 2.8%;
+	margin-right : 3%;
+	height : 85%;
+}
+
+div.graph{
+	padding-top: -60%;
+	margin-top: -60%;
+	height: 55%;
+	width: 55%
+}
+
+img.icon{
+	padding-top: -80%;
+	margin-top:	-80%;
+	width: 21%;
+	margin-left: 1%;
+}

@@ -1,0 +1,57 @@
+
+<!--html-->
+
+<article>
+  <div id="holder"></div> 
+  <p id="status"></p>
+</article>
+
+<!--javaScript-->
+
+<script>
+	var holder = document.getElementById('holder'),
+		state = document.getElementById('status');
+
+	if (typeof window.FileReader === 'undefined') {
+	  state.className = 'fail';
+	} else {
+	  state.className = 'success';
+	  state.innerHTML = 'File API & FileReader available';
+	}
+
+	holder.ondragover = function () { this.className = 'hover'; return false; };
+	holder.ondragend = function () { this.className = ''; return false; };
+	holder.ondrop = function (e) {
+	  this.className = '';
+	  e.stopPropagation();
+	  e.preventDefault();
+
+	  var file = e.dataTransfer.files[0],
+		  reader = new FileReader();
+	  reader.onload = function (event) {
+		var img = new Image();
+		img.src = event.target.result;
+		// note: no onload required since we've got the dataurl...I think! :)
+		if (img.width > 300) { // holder width
+		  img.width = 300;
+	  }
+	  holder.innerHTML = '';
+	  holder.appendChild(img);
+	  };
+	  reader.readAsDataURL(file);
+
+	  return false;
+	};
+</script>
+			
+<!--css-->
+			
+#holder {
+	border: 10px dashed #ccc;
+	width: 300px;
+	height: 300px;
+	margin: 20px auto;
+ }
+#holder.hover { 
+	border: 10px dashed #333; 
+}

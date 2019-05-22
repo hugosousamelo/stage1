@@ -1,0 +1,36 @@
+#grapiquePourcentage dl {
+		width:50%;
+		left:20%;
+		border:1px solid #000;
+		font-weight:bold;
+		position:relative;
+		margin:1%;
+}
+
+#grapiquePourcentage dt {
+		border:1px solid #000;
+		left:-15%;
+		width:15%;
+		background-color:#EEEEEE;
+		position:absolute;
+		color:#0D5CAB;
+		margin-top:-1px;
+}
+
+#grapiquePourcentage dd {
+		text-align:center;
+		margin:0;
+		color:black;
+}
+
+#vert dd {
+		background-color:green;
+}
+
+#rouge dd {
+		background-color:red;
+}
+
+#orange dd {
+		background-color:orange;
+}

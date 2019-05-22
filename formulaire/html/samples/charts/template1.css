@@ -1,0 +1,202 @@
+body {
+	font-family: "Calibri", sans-serif;
+	font-weight: lighter;
+}
+
+article.entete {
+	color : white;
+	background-color : #bab3ab;
+	text-align: center;
+	height : 80px;
+	width : 45%;
+	display : inline-block;
+	float : left;
+}
+
+article.entete2 {
+	color : white;
+	background-color : #bab3ab;
+	text-align: center;
+	height :  80px;
+	width : 54.5%;
+	display : inline-block;
+	margin-left : 0.5%;
+	
+}
+
+article.gauche {
+	margin-top : 0.5%;
+	float : left;
+	background-color : #bab3ab;
+	width : 45%;
+	height : 660px;
+}
+
+div.fondL {
+	text-align : center;
+	background-color : white;
+	margin-left : 3px;
+	margin-right : 3px;
+	margin-top : 3px;
+	height : 654px;
+}
+
+div.graph {
+	padding-bottom: -100%;
+	margin-bottom: -40%;
+	margin-left: -7.5%;
+}
+
+.rouge {
+	color : red;
+	
+}
+
+.jaune {
+	color : orange;
+	
+}
+
+.vert {
+	color : green;
+}
+
+
+
+
+
+article.droiteA {
+	margin-top : 0.5%;
+	float : right;
+	width : 900px;
+	height : 156px;
+}
+
+article.tableau {
+	background-color : #bab3ab;
+	width : 688px;
+	display:inline-block;
+	margin-left: -19px;
+	height : 156px;
+	text-align : center;
+}
+
+table.tableau {
+	background-color : white;
+	margin-top : 3px;
+	margin-left : 3px;
+	margin-right : 3px;
+	height : 150px;
+	border:1px solid grey;
+}
+
+td.tableau {
+	border:1px solid grey;
+}
+
+
+article.image {
+	background-color : #bab3ab;
+	margin-right: 20px;
+	width : 180px;
+	display:inline-block;
+	float : right;
+	height : 156px;
+}
+
+div.fondImg {
+	margin-top : 3px;
+	margin-left : 5px;
+	background-color : white;
+	width : 170px;
+	height : 150px;
+	
+}
+
+img.appre {
+	float : right;
+	margin-right : 3px;
+	margin-top : 3px;
+	width : 90%;
+	height : 90%;
+	background-color : white;
+}
+
+article.droiteB {
+	background-color : #bab3ab;
+	width : 54.5%;
+	height : 272px;
+	float : left;
+	margin-left : 0.5%;
+	margin-top : 0.5%;
+}
+
+div.fondCom {
+	background-color : white;
+	margin-top : 3px;
+	margin-left : 3px;
+	margin-right : 3px;
+	height : 265px;
+}
+
+font.deca {
+	margin-left : 30%;
+}
+
+img.logoClient {
+	width : 90px;
+	height : 90px;
+	display : inline-block;
+	margin-left : 15px;
+	margin-top : -120px;
+	float : left;
+}
+
+div.zoneClient {
+	display : inline-block;
+	width : 919px;
+	height :110px;
+	background-color :  #bab3ab ;
+	text-align : center;
+	margin-top:0.1%;
+	float : right;
+	
+}
+
+img.logoCC {
+	width : 90px;
+	height : 90px;
+	display : inline-block;
+	margin-left : 15px;
+	margin-top : -116px;
+	float : left;
+}
+
+div.zoneCC {
+	display : inline-block;
+	width : 919px;
+	height :115px;
+	background-color :  #bab3ab ;
+	float : right;
+	text-align : center;
+	margin-top : -0.5%;
+}
+
+p.fondFoot {
+background-color : white;
+	margin-top : 3px;
+	margin-left : 3px;
+	margin-right : 3px;
+	height : 109px;
+}
+img.icon {
+	padding-top: -100%;
+	margin-top: 2.6%;
+	margin-left: 0.15%;
+	width: 24.6%;
+	
+}
+font.zoneCom{
+	margin-left : 10px;
+	text-align: center;
+}

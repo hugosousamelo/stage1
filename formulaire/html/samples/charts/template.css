@@ -1,0 +1,257 @@
+body.page {
+	width : 1250px;
+	height : 2350px;
+}
+
+.rouge {
+	color : #fe0000;
+	
+}
+
+.jaune {
+	color : rgb(255, 205, 86);
+	
+}
+
+.vert {
+	color : #3ce23c;
+}
+
+img.logoClient {
+	display: inline-block;
+	width : 175px;
+	height : 175px;
+	float: left;
+	margin-left: 4%;
+}
+
+article.titreClient {
+	font-family: "Neou";
+	display: inline-block;
+	background-color : white;
+	color :  #040b18;
+	margin-left: 5%;
+	margin-top: 2%;
+	font-size: 54px; 
+}
+
+div.barre {
+	color:white;
+	margin-top: 5%;
+	height: 5px;
+	background-color: #767676;
+	margin-right: 10%;
+	margin-left: 50%
+}
+
+div.barre2 {
+	color:white;
+	height: 5px;
+	background-color: #767676;
+	margin-right: 10%;
+	margin-left: 50%;
+}
+
+div.zoneA {
+	display: inline-block;
+	background-color: #040b18;
+	height: 275px;
+	width: 563px;
+	margin-top: 72.5px;
+	margin-left : 0.00%;
+	position: absolute;
+	font-size: 30px;
+	color:white;
+}
+
+div.zoneB {
+	display: inline-block;
+	background-color: #040b18;
+	height: 275px;
+	width: 5%;
+	margin-top: 72.5px;
+	float: right;
+}
+
+
+div.zoneC {
+	font-family: 'Metrophobic', sans-serif;
+	font-size: 60px;
+	line-height: 30px;
+	margin-left: 2%;
+	color: #040b18;
+	margin-top: 7px;
+	color: #040b18;
+}
+
+div.zoneD {
+	display: inline-block;
+	background-color: #040b18;
+	height: 20px;
+	width: 115px;
+	margin-top: 12%;
+	float: right;
+}
+
+div.zoneE {
+	display: inline-block;
+	background-color: #040b18;
+	height: 20px;
+	width: 73px;
+	margin-top: 12%;
+	font-size: 60px;
+}
+
+section.zoneImage {
+	background-color: #767676;
+	float : right;
+	display: inline-block;
+	width: 50%;
+	height : 420px; 
+}
+
+article.zoneImage {
+	width: 616px;
+	height: 410px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: white;
+}
+div.graph{
+	padding-bottom: -100%;
+	margin-bottom: -15%;
+	margin-left: -45px;
+}
+img.icon {
+	padding-top: -30%;
+	margin-top: -30%;
+	height: 80%;
+	
+}
+
+section.pourcentage {
+	background-color: black;
+}
+
+div.pourcentage {
+	font-family: Calibri;
+	font-size: 150px;
+	line-height: 1px;
+	margin-left: 2%;
+	color: #040b18;
+	display: inline-block;
+	margin-top: 36%;
+	padding-top:2%
+}
+
+section.tableau {
+	background-color: #e0e0e0;
+	float : left;
+	display: inline-block;
+	margin-left:5.8%;
+	width: 1100px;
+	height : 8.5%;
+	margin-top: -8%;
+}
+
+table.tableau {
+	background-color : white;
+	height : 17%;
+	border:1px solid grey;
+	width: 1090px;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+td.tableau {
+	border:1px solid grey;
+}
+
+div.fondCom {
+	margin-top: 12%;
+}
+
+font.merci {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #040b18;
+	font-size: 40px;
+}
+
+font.zoneCom {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color:  #767676; 
+}
+
+font.zoneBleu {
+	font-family: 'Metrophobic', sans-serif;
+	color : #040b18;
+	font-size: 30px;
+}
+
+img.logoCC {
+	width : 175px;
+	height : 175px;
+	display: inline-block;
+	margin-left: 4%;
+	margin-top: 5%;
+}
+
+article.titreCC {
+	font-family: 'Metrophobic', sans-serif;
+	display: inline-block;
+	font-size: 24px;
+	color:  #767676;
+	margin-top : 8%;
+	margin-right : 46%;
+	float : right;
+}
+
+div.site {
+	font-size: 24px;
+	color:  #767676;
+}
+
+font.adroit{
+	margin-left : -500px;
+	margin-right: 130%;
+}
+div.textzonea{
+	margin-left: 45px;
+	margin-right: 15%;
+}
+
+font.merci2 {
+	display: inline-block;
+	background-color: white;
+	height: 175px;
+	width: 1073px;
+	margin-top: 11px;
+	margin-left: -537px;
+	position: absolute;
+	color : #767676;
+}
+
+font.merci2 font{
+	font-family: 'Barbershop_in_thailand';
+	font-size: 50px;
+	margin-top: -50px;
+	margin-left: -500px;
+	position: absolute;
+}
+
+@font-face{
+	font-family: "Neou";
+	src: url(police/neou/Neou-Thin.ttf) format("truetype")
+}
+
+@font-face{
+	font-family: "NeouBold";
+	src: url(police/neou/Neou-Bold.ttf) format("truetype")
+}
+
+@font-face{
+	font-family: "Barbershop_in_thailand";
+	src: url(police/barbershop_in_thailand/barbershop_in_thailand.ttf) format("truetype")
+}
